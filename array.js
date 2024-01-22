@@ -105,19 +105,3 @@
 // }
 
 // console.log(array.filter(isPrime));
-
-
-let age = [10,30,40,70,90,95,5,7]
-var filterAge = age.filter(ele => ele >= 18);
-var mapMoney = filterAge.map((ele)=>{
-    if (ele>=60) {
-        return 2000;
-    }
-    else{
-        return 1000;
-    }
-})
-
-var investment = mapMney.reduce((iv,ele) => ele{
-    return iv + ele;
-})
